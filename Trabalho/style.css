@@ -7,6 +7,7 @@ body{
 
 main{
     display: flex;
+    justify-content: center;
     gap: 10px;
     margin: 20px;
     border-radius: 4px;
@@ -25,7 +26,7 @@ ul{
     display: flex;
     list-style: none;
     padding: 10px 20px;
-    width: calc(100vh - 186px);
+    width: calc(100vw - 186px);
     justify-content: space-around;
 }
 
@@ -41,4 +42,18 @@ nav{
     height: 70px;
     padding: 10px;
     margin-left: 10px;
+}
+
+.imagens{
+    display: flex;
+    justify-content: center;
+    width: 100vh;
+}
+
+.imagens, img{
+    width: 200px;
+    height: 200px;
+    margin: 25px;  
+    object-fit: cover;
+    border-radius: 10px;
 }
