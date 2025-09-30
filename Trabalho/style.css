@@ -13,6 +13,10 @@ main{
     border-radius: 4px;
 }
 
+h1{
+    text-align: center;
+}
+
 li a{
     text-decoration: none;
     list-style: none;
@@ -34,26 +38,37 @@ nav{
     display: flex;
     flex-direction: row;
     align-items: center;
+    height: 70px;
     background: linear-gradient(to bottom, #3A3E27, #4C5234, #5F6741);
 }
 
 .logo{
     width: auto;
-    height: 70px;
+    height: 60px;
     padding: 10px;
     margin-left: 10px;
 }
 
 .imagens{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    justify-items: center;
     width: 100vh;
 }
 
 .imagens, img{
-    width: 200px;
-    height: 200px;
-    margin: 25px;  
+    width: 350px;
+    height: 350px;
+    margin: 30px;
+    gap: 10px;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 6px;
+}
+
+footer{
+    color: #AAB38D;
+    text-align: center;
+    text-decoration: solid  ;
+    padding: 5px 10px;
+    background: linear-gradient(to bottom, #5F6741, #4C5234, #3A3E27);
 }
