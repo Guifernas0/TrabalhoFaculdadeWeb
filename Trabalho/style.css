@@ -14,8 +14,7 @@ main{
     gap: 10px;
     padding: 0;
     border-radius: 4px;
-    width: 100vw;
-    height: 100vh;   
+    height: 100vw;
 }
 
 h1{
@@ -45,7 +44,6 @@ nav{
     align-items: center;
     height: 70px;
     background: linear-gradient(to bottom, #3A3E27, #4C5234, #5F6741);
-    width: 100vw;
 }
 
 .logo{
@@ -58,11 +56,11 @@ nav{
 .Imagens{
     display: flex;
     justify-content: center;
-    background-color: #5F6741;
+    width: 100%;
 }
 
 img{
-    width: 15vw;
+    width: 23vw;
     height: auto;
     margin: 10px;
     object-fit: cover;
@@ -80,5 +78,4 @@ footer{
     text-align: center;
     text-decoration: solid;
     background: linear-gradient(to bottom, #5F6741, #4C5234, #3A3E27);
-    width: 100vw;
 }
